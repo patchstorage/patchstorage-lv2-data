@@ -1,0 +1,225 @@
+/* STYLES FOR THE BOXY PEDAL */
+
+@import url(/fonts/nexa/stylesheet.css);
+@import url(/fonts/questrial/stylesheet.css);
+
+
+/* = CONTAINER
+================================================ */
+.swanky-amp{{{cns}}} {
+    padding: 0px 25px;
+	background-color: #fefefe;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 580px 450px;
+    height: 450px;
+    position: absolute;
+    width: 580px;
+    border-color: #484848;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+/* PORTS
+================================================ */
+
+.swanky-amp{{{cns}}} .mod-pedal-input,
+.swanky-amp{{{cns}}} .mod-pedal-output {
+    top: 150px;
+}
+
+/* = PLUGIN'S AUTHOR
+================================================ */
+.swanky-amp{{{cns}}} .mod-plugin-brand {
+	float: left;
+	left: 15px;
+    position: relative;
+    text-transform: uppercase;
+    top: 0px;
+	color: #484848;
+}
+
+.swanky-amp{{{cns}}} .mod-plugin-brand h1 {
+    font-family: "Nexa";
+    font-size: 21px;
+    font-weight: bold;
+	margin: 5px 0px 5px 0px;
+}
+
+/* = PLUGIN'S NAME
+================================================ */
+.swanky-amp{{{cns}}} .mod-plugin-name {
+    position: relative;
+    right: 15px;
+    text-align: right;
+    top: 2px;
+	color: #484848;
+}
+
+.swanky-amp{{{cns}}} .mod-plugin-name h1 {
+    font-family: "Nexa";
+    font-size: 21px;
+    font-weight: bold;
+	margin: 5px 5px 5px 0px;
+	color: #b0454b;
+}
+
+/* = BYPASS SWITCH
+================================================ */
+.swanky-amp{{{cns}}} .mod-bypass-control-group {
+	float: left;
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    padding: 10px 10px 0 8px;
+    color: #484848;
+	margin: 0px 0px 10px 10px !important;
+    position: relative;
+    text-align: center;
+    z-index: 30;
+}
+
+.swanky-amp{{{cns}}} .mod-bypass-control-group .mod-bypass-control-group-title {
+    top: 2px;
+    left: 3px;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 5px;
+    overflow: hidden;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.swanky-amp{{{cns}}} .mod-bypass-control-group .mod-bypass-switch {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+	margin-top: 7px;
+    height: 95px;
+	width: 35px;
+}
+
+.swanky-amp{{{cns}}} .mod-bypass-control-group .mod-bypass-switch .mod-bypass-switch-image {
+    cursor: pointer;
+    background-image: url(/resources/switches/switch.png{{{ns}}});
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 70px auto ;
+	height: 80px;
+    width: 35px;
+    margin: 5px auto;
+}
+
+.swanky-amp{{{cns}}} .mod-bypass-control-group .mod-bypass-switch .mod-bypass-switch-image.on {
+    background-position: top left !important
+}
+
+/* = KNOB
+================================================ */
+.swanky-amp{{{cns}}} .mod-knobs-control-group {
+	float: left;
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    padding: 13px 13px 0 13px;
+    color: #484848;
+	margin: 0px 5px 10px 10px !important;
+    position: relative;
+    text-align: center;
+    z-index: 30;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-knobs-control-group-title {
+    top: 2px;
+    left: 3px;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 5px;
+    overflow: hidden;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-knob {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+	margin-top: 7px;
+    height: 92px;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-knob > span.mod-knob-title {
+    bottom: 0px;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 11px;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-knob > span.mod-knob-value {
+    color: #484848;
+    font-size: 10px;
+    text-align: center;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-knob .mod-knob-image {
+    background-image: url(/resources/knobs/knob.png{{{ns}}});
+    background-repeat: no-repeat;
+    background-size: auto 60px;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+}
+
+/* = SWITCH
+================================================ */
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-switch {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+	margin-top: 0px;
+    height: 95px;
+	width: 60px;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-switch > span.mod-switch-title {
+    bottom: 0px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 12px;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-switch .mod-switch-image {
+    cursor: pointer;
+    background-image: url(/resources/switches/switch.png{{{ns}}});
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 70px auto ;
+	height: 80px;
+    width: 35px;
+    margin: 5px auto;
+}
+
+.swanky-amp{{{cns}}} .mod-knobs-control-group .mod-switch .mod-switch-image.on {
+    background-position: top right !important
+}

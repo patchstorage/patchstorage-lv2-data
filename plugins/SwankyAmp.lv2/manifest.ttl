@@ -1,0 +1,70 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ui:   <http://lv2plug.in/ns/extensions/ui#> .
+
+<urn:distrho:SwankyAmp>
+    a lv2:Plugin ;
+    lv2:binary <SwankyAmp.so> ;
+    rdfs:seeAlso <SwankyAmp.ttl>, <modgui.ttl> .
+
+<urn:distrho:SwankyAmp#preset001>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Clean" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset002>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Bright" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset003>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Edge" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset004>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Distort" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset005>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Dirty Distort" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset006>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Pre Drive" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset007>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Power Drive" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset008>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Full Drive" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset009>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "High Gain" ;
+    rdfs:seeAlso <presets.ttl> .
+
+<urn:distrho:SwankyAmp#preset010>
+    a pset:Preset ;
+    lv2:appliesTo <urn:distrho:SwankyAmp> ;
+    rdfs:label "Level 11" ;
+    rdfs:seeAlso <presets.ttl> .
+
