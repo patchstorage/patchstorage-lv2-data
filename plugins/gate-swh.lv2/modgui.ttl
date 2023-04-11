@@ -1,0 +1,50 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://plugin.org.uk/swh-plugins/gate>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-gate.html> ;
+        modgui:stylesheet <modgui/stylesheet-gate.css> ;
+        modgui:screenshot <modgui/screenshot-gate.png> ;
+        modgui:thumbnail <modgui/thumbnail-gate.png> ;
+        modgui:brand "SWH" ;
+        modgui:label "Gate" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "select" ;
+            lv2:name "Output select" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "threshold" ;
+            lv2:name "Thrsh(dB)" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attk(ms)" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "hold" ;
+            lv2:name "Hold(ms)" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "decay" ;
+            lv2:name "Dcay(ms)" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "lf_fc" ;
+            lv2:name "LF Key(Hz)" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "hf_fc" ;
+            lv2:name "HF Key(Hz)" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "range" ;
+            lv2:name "Range(dB)" ;
+        ] ;
+    ] .
