@@ -1,0 +1,26 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<urn:distrho:a-reverb>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-die-reverb.html> ;
+        modgui:stylesheet <modgui/stylesheet-die-reverb.css> ;
+        modgui:screenshot <modgui/screenshot-die-reverb.png> ;
+        modgui:thumbnail <modgui/thumbnail-die-reverb.png> ;
+        modgui:brand "Distrho" ;
+        modgui:label "DIE Reverb" ;
+        modgui:model "boxy" ;
+        modgui:panel "2-knobs" ;
+        modgui:color "green" ;
+        modgui:knob "gold" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "blend" ;
+            lv2:name "Blend" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "roomsz" ;
+            lv2:name "Room Size" ;
+        ] ;
+    ] .
