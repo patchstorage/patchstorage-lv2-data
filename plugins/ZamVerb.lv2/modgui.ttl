@@ -1,0 +1,30 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<urn:zamaudio:ZamVerb>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-zamverb.html> ;
+        modgui:stylesheet <modgui/stylesheet-zamverb.css> ;
+        modgui:screenshot <modgui/screenshot-zamverb.png> ;
+        modgui:thumbnail <modgui/thumbnail-zamverb.png> ;
+        modgui:brand "ZamAudio" ;
+        modgui:label "ZamVerb" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-2-knobs" ;
+        modgui:color "green" ;
+        modgui:knob "steel" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "style" ;
+            lv2:name "Style" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "wetdry" ;
+            lv2:name "Wet / Dry" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "master" ;
+            lv2:name "Master level" ;
+        ] ;
+    ] .
