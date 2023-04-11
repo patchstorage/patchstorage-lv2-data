@@ -1,0 +1,46 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<https://github.com/creativeintent/temper>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-temper.html> ;
+        modgui:stylesheet <modgui/stylesheet-temper.css> ;
+        modgui:screenshot <modgui/screenshot-temper.png> ;
+        modgui:thumbnail <modgui/thumbnail-temper.png> ;
+        modgui:brand "Creative Intent" ;
+        modgui:label "Temper" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "black" ;
+        modgui:knob "copper" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "cutoff" ;
+            lv2:name "Cutoff" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "resonance" ;
+            lv2:name "Resonance" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "feedback" ;
+            lv2:name "Feedback" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "level" ;
+            lv2:name "Level" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "curve" ;
+            lv2:name "Curve" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "drive" ;
+            lv2:name "Drive" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "saturation" ;
+            lv2:name "Saturation" ;
+        ] ;
+    ] .
