@@ -1,0 +1,15 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://gareus.org/oss/lv2/nodelay>
+	a lv2:Plugin ;
+	lv2:binary <nodelay.so>  ;
+	rdfs:seeAlso <nodelay.ttl> .
+
+
+<default-preset>
+    a <http://lv2plug.in/ns/ext/presets#Preset> ;
+    <http://lv2plug.in/ns/lv2core#appliesTo> <http://gareus.org/oss/lv2/nodelay> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Default" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <default-preset.ttl> .
+<http://gareus.org/oss/lv2/nodelay> rdfs:seeAlso <modgui.ttl> .

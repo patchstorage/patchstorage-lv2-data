@@ -1,0 +1,26 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://gareus.org/oss/lv2/nodelay>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-no-delay-line.html> ;
+        modgui:stylesheet <modgui/stylesheet-no-delay-line.css> ;
+        modgui:screenshot <modgui/screenshot-no-delay-line.png> ;
+        modgui:thumbnail <modgui/thumbnail-no-delay-line.png> ;
+        modgui:brand "Robin G" ;
+        modgui:label "No Delay Line" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-1-knob" ;
+        modgui:color "darkblue" ;
+        modgui:knob "blue" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "report_latency" ;
+            lv2:name "report delay as latency" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "delay" ;
+            lv2:name "delay" ;
+        ] ;
+    ] .
