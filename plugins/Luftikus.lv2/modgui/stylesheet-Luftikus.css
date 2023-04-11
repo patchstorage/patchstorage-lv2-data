@@ -1,0 +1,184 @@
+/* STYLES FOR THE PEDAL */
+
+@import url(/fonts/nexa/stylesheet.css);
+@import url(/fonts/questrial/stylesheet.css);
+
+
+/* = CONTAINER
+================================================ */
+.mod-Luftikus{{{cns}}} {
+    background-image: url(/resources/background-Luftikus.png{{{ns}}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 720px 205px;
+    width: 720px;
+	height: 205px;
+    position: absolute;
+}
+
+/* PORTS
+================================================ */
+
+.mod-Luftikus{{{cns}}} .mod-pedal-input,
+.mod-Luftikus{{{cns}}} .mod-pedal-output {
+    top: 40px;
+}
+
+/* = LIGHT ON/OFF
+================================================ */
+.mod-Luftikus{{{cns}}} .mod-light {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 25px;
+    position: absolute;
+    height: 25px;
+    top: 178px;
+    left: 98px;
+	right: 597px;
+}
+
+/* = CONTROL GROUPS
+================================================ */
+.mod-Luftikus{{{cns}}} .mod-control-groupA {
+    margin: 0px !important;
+	left: 18px;
+    text-align: left;
+    position: relative;
+    z-index: 25;
+}
+
+.mod-Luftikus{{{cns}}} .mod-control-groupB {
+    margin: 0px !important;
+	left: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 25;
+}
+
+/* = KNOBS
+================================================ */
+.mod-Luftikus{{{cns}}} .mod-knobA, .mod-knobB, .mod-knobC,  .mod-slider{
+	overflow: hidden;
+    display: inline-block;
+    height: 155px;
+    position: relative;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knobA{
+	top: 48px;
+	margin: 0 2px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knobB{
+	top: 21px;
+	margin: 0px 0px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knobC{
+	top: 21px;
+	margin: 0px 0px 0px 29px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knob-valueA, .mod-knob-valueB {
+    height: 19px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knob-valueA {
+    color: #94b3c3;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knob-valueB {
+    color: #26546f;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knob-imageA {
+    cursor: pointer;
+    background-image: url(/resources/knobs/chicken-head.png{{{ns}}});
+    background-repeat: no-repeat;
+    background-size: auto 95px;
+    height: 95px;
+    width: 95px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knobD{
+	overflow: hidden;
+    display: inline-block;
+    height: 40px;
+    left: 48px;
+    position: relative;
+	top: -5px;
+	margin: 0 2px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-knob-imageB {
+    cursor: pointer;
+    background-image: url(/resources/knobs/knob.png{{{ns}}});
+    background-repeat: no-repeat;
+    background-size: auto 40px;
+    height: 40px;
+    width: 40px;
+}
+
+/* = SWITCHES
+================================================ */
+.mod-Luftikus{{{cns}}} .mod-switchA {
+    top: 5px;
+	left: 17px;
+	overflow: hidden;
+    position: relative;
+    display: inline-block;
+	width: 97px;
+    height: 40px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-switchA .mod-switch-image {
+    cursor: pointer;
+    background-image: url(/resources/switches/switch-001.png{{{ns}}});
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-switchA .mod-switch-image.on {
+    background-position: right !important
+}
+
+.mod-Luftikus{{{cns}}} .mod-switchB {
+    background-image: url(/resources/switches/switch-002.png{{{ns}}});
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto 40px;
+    height: 40px;
+    width: 80px;
+    position: absolute; !important;
+	top: 170px;
+	left: 27px;
+    cursor: pointer;
+	z-index: 30;
+}
+
+.mod-Luftikus{{{cns}}} .mod-switchB.on {
+    background-position: left; !important
+}
+
+/* SLIDERS
+================================================ */
+.mod-Luftikus{{{cns}}} .mod-slider {
+	top: 15px;
+}
+
+.mod-Luftikus{{{cns}}} .mod-slider .mod-slider-image {
+    cursor: pointer;
+    background-image: url(/resources/sliders/slider.png{{{ns}}});
+    background-repeat: no-repeat;
+    background-size: auto 137.5px;
+    height: 137.5px;
+    width: 55px;
+}

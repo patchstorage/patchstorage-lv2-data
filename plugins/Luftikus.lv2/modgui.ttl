@@ -1,0 +1,58 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<https://code.google.com/p/lkjb-plugins/luftikus>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-Luftikus.html> ;
+        modgui:stylesheet <modgui/stylesheet-Luftikus.css> ;
+        modgui:screenshot <modgui/screenshot-Luftikus.png> ;
+        modgui:thumbnail <modgui/thumbnail-Luftikus.png> ;
+        modgui:brand "LKJB" ;
+        modgui:label "Luftikus" ;
+        modgui:port [
+            lv2:index 0 ;
+			lv2:symbol "gain_10_hz" ;
+			lv2:name "10 Hz" ;
+        ] , [
+            lv2:index 1 ;
+			lv2:symbol "gain_40_hz" ;
+			lv2:name "40 Hz" ;
+        ] , [
+            lv2:index 2 ;
+			lv2:symbol "gain_160_hz" ;
+			lv2:name "160 Hz" ;
+        ] , [
+            lv2:index 3 ;
+			lv2:symbol "gain_640_hz" ;
+			lv2:name "640 Hz" ;
+        ] , [
+            lv2:index 4 ;
+			lv2:symbol "gain_2_5_khz" ;
+			lv2:name "2.5 kHz" ;
+        ] , [
+            lv2:index 5 ;
+			lv2:symbol "gain_high" ;
+			lv2:name "High" ;
+        ] , [
+            lv2:index 6 ;
+			lv2:symbol "type_high" ;
+			lv2:name "High Freq" ;
+        ] , [
+            lv2:index 7 ;
+			lv2:symbol "mastering" ;
+			lv2:name "Mastering" ;
+        ] , [
+            lv2:index 8 ;
+			lv2:symbol "analog" ;
+			lv2:name "Analog" ;
+        ] , [
+            lv2:index 9 ;
+			lv2:symbol "keep_gain" ;
+			lv2:name "Keep Gain" ;
+        ] , [
+            lv2:index 10 ;
+			lv2:symbol "mastervol" ;
+			lv2:name "Trim" ;
+        ] ;
+    ] .
