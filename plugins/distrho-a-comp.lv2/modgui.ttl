@@ -1,0 +1,90 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<urn:distrho:a-comp>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-die-compressor.html> ;
+        modgui:stylesheet <modgui/stylesheet-die-compressor.css> ;
+        modgui:screenshot <modgui/screenshot-die-compressor-mono.png> ;
+        modgui:thumbnail <modgui/thumbnail-die-compressor-mono.png> ;
+        modgui:brand "Distrho" ;
+        modgui:label "CompressorMono" ;
+        modgui:model "boxy" ;
+        modgui:panel "6-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "att" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "rel" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "kn" ;
+            lv2:name "Knee" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "rat" ;
+            lv2:name "Ratio" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "thr" ;
+            lv2:name "Threshold" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "mak" ;
+            lv2:name "Makeup" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "sidech" ;
+            lv2:name "Sidechain" ;
+        ] ;
+    ] .
+	
+<urn:distrho:a-comp#stereo>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-die-compressor.html> ;
+        modgui:stylesheet <modgui/stylesheet-die-compressor.css> ;
+        modgui:screenshot <modgui/screenshot-die-compressor-stereo.png> ;
+        modgui:thumbnail <modgui/thumbnail-die-compressor-stereo.png> ;
+        modgui:brand "Distrho" ;
+        modgui:label "CompressorST" ;
+        modgui:model "boxy" ;
+        modgui:panel "6-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "att" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "rel" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "kn" ;
+            lv2:name "Knee" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "rat" ;
+            lv2:name "Ratio" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "thr" ;
+            lv2:name "Threshold" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "mak" ;
+            lv2:name "Makeup" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "sidech" ;
+            lv2:name "Sidechain" ;
+        ] ;
+    ] .

@@ -1,0 +1,162 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+###############################################################################
+## START http://github.com/blablack/deteriorate-lv2/downsampler_mono
+
+<http://github.com/blablack/deteriorate-lv2/downsampler_mono>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-downsampler-mono.html> ;
+        modgui:stylesheet <modgui/stylesheet-downsampler-mono.css> ;
+        modgui:screenshot <modgui/screenshot-downsampler-mono.png> ;
+        modgui:thumbnail <modgui/thumbnail-downsampler-mono.png> ;
+        modgui:brand "Aurelien" ;
+        modgui:label "DwnSmplrMono" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-1-knob" ;
+        modgui:color "lava" ;
+        modgui:knob "copper" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "bypass" ;
+            lv2:name "Bypass" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "ratio" ;
+            lv2:name "Ratio" ;
+        ] ;
+    ] .
+
+## END http://github.com/blablack/deteriorate-lv2/downsampler_mono
+###############################################################################
+
+###############################################################################
+## START http://github.com/blablack/deteriorate-lv2/downsampler_stereo
+
+<http://github.com/blablack/deteriorate-lv2/downsampler_stereo>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-downsampler-stereo.html> ;
+        modgui:stylesheet <modgui/stylesheet-downsampler-stereo.css> ;
+        modgui:screenshot <modgui/screenshot-downsampler-stereo.png> ;
+        modgui:thumbnail <modgui/thumbnail-downsampler-stereo.png> ;
+        modgui:brand "Aurelien" ;
+        modgui:label "DwnSmplr St" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-1-knob" ;
+        modgui:color "lava" ;
+        modgui:knob "copper" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "bypass" ;
+            lv2:name "Bypass" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "ratio" ;
+            lv2:name "Ratio" ;
+        ] ;
+    ] .
+
+## END http://github.com/blablack/deteriorate-lv2/downsampler_stereo
+###############################################################################
+
+###############################################################################
+## START http://github.com/blablack/deteriorate-lv2/granulator_mono
+
+<http://github.com/blablack/deteriorate-lv2/granulator_mono>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-granulator-mono.html> ;
+        modgui:stylesheet <modgui/stylesheet-granulator-mono.css> ;
+        modgui:screenshot <modgui/screenshot-granulator-mono.png> ;
+        modgui:thumbnail <modgui/thumbnail-granulator-mono.png> ;
+        modgui:brand "Aurelien L" ;
+        modgui:label "Granulator Mono" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "gold" ;
+        modgui:knob "gold" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "inputGain" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "grainSize" ;
+            lv2:name "Gr.Size " ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "grainDensity" ;
+            lv2:name "Spacing" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "grainSpread" ;
+            lv2:name "Spread" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "release" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "outputGain" ;
+            lv2:name "Output" ;
+        ] ;
+    ] .
+	
+## END http://github.com/blablack/deteriorate-lv2/granulator_mono
+###############################################################################
+
+###############################################################################
+## START http://github.com/blablack/deteriorate-lv2/granulator_stereo
+
+<http://github.com/blablack/deteriorate-lv2/granulator_stereo>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-granulator-stereo.html> ;
+        modgui:stylesheet <modgui/stylesheet-granulator-stereo.css> ;
+        modgui:screenshot <modgui/screenshot-granulator-stereo.png> ;
+        modgui:thumbnail <modgui/thumbnail-granulator-stereo.png> ;
+        modgui:brand "Aurelien L" ;
+        modgui:label "Granulator Stereo" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "gold" ;
+        modgui:knob "gold" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "inputGain" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "grainSize" ;
+            lv2:name "Gr.Size " ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "grainDensity" ;
+            lv2:name "Spacing" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "grainSpread" ;
+            lv2:name "Spread" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "release" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "outputGain" ;
+            lv2:name "Output" ;
+        ] ;
+    ] .
+	
+## END http://github.com/blablack/deteriorate-lv2/granulator_stereo
+###############################################################################
