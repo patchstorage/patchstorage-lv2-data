@@ -1,0 +1,112 @@
+/* STYLES FOR THE xTerror PEDAL */
+
+@import url(/fonts/nexa/stylesheet.css);
+@import url(/fonts/questrial/stylesheet.css);
+
+
+/* = CONTAINER
+================================================ */
+.mod-pedal-xTerror{{{cns}}} {
+    background-image: url(/resources/pedals/background.png{{{ns}}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 400px 325px;
+    height: 325px;
+    width: 400px;
+    position: absolute;
+}
+
+
+/* PORTS
+================================================ */
+
+.mod-pedal-xTerror{{{cns}}} .mod-pedal-input,
+.mod-pedal-xTerror{{{cns}}} .mod-pedal-output {
+    top: 120px;
+}
+
+/* = PLUGIN'S AUTHOR
+================================================ */
+.mod-pedal-xTerror{{{cns}}} .mod-plugin-brand {
+    left:20px;
+    position:absolute;
+    text-align:center;
+    text-transform:uppercase;
+    top:60px;
+}
+
+.mod-pedal-xTerror{{{cns}}} .mod-plugin-brand h1 {
+    color:black;
+    display:inline-block;
+    font-family:"Nexa";
+    font-size:32px;
+    padding:3px 9px 0;
+}
+
+/* = PLUGIN'S NAME
+================================================ */
+.mod-pedal-xTerror{{{cns}}} .mod-plugin-name {
+    overflow:hidden;
+    position:absolute;
+    right:30px;
+    text-align:center;
+    top:120px;
+}
+
+.mod-pedal-xTerror{{{cns}}} .mod-plugin-name h1 {
+    border-color:black;
+    color:black;
+    font-family:"Questrial";
+    font-size:18px;
+    line-height:1;
+}
+
+/* = SWITCH
+================================================ */
+.mod-pedal-xTerror{{{cns}}} .mod-control-group {
+    left:35px !important;
+	top:240px;
+    position:relative;
+    text-align:left;
+    z-index:30;
+}
+
+.mod-pedal-xTerror{{{cns}}} .mod-control-group .mod-switch {
+    cursor: pointer;
+	height: 40px;
+    width: 40px;
+    display:inline-block;
+	margin-bottom: 5px;
+	margin-right: 135px;
+}
+
+.mod-pedal-xTerror{{{cns}}} .mod-control-group .mod-switch-image {
+    background-image:url(/resources/switches/switch.png{{{ns}}});
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto 80px;
+    height: 40px;
+    width: 80px;
+}
+.mod-pedal-xTerror{{{cns}}} .mod-control-group .mod-switch-image.on {
+    background-position-y: top !important;
+}
+
+/* = KNOBS
+================================================ */
+.mod-pedal-xTerror{{{cns}}} .mod-control-group .mod-knob {
+    cursor: pointer;
+    overflow:hidden;
+    position:relative;
+    display:inline-block;
+    height:50px;
+}
+
+.mod-pedal-xTerror{{{cns}}} .mod-control-group .mod-knob .mod-knob-image {
+    background-image:url(/resources/knobs/knob.png{{{ns}}});
+    background-repeat: no-repeat;
+    background-size: auto 50px;
+    height: 50px;
+    width: 50px;
+}
+

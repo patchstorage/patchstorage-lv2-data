@@ -1,0 +1,294 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/midichanab
+<http://kxstudio.sf.net/carla/plugins/midichanab>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-channel-ab.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-channel-ab.css> ;
+        modgui:screenshot <modgui/screenshot-midi-channel-ab.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-channel-ab.png> ;
+        modgui:brand "Milk Brews" ;
+        modgui:label "MIDI Channel A/B" ;
+        modgui:model "boxy" ;
+        modgui:panel "16-sliders" ;
+        modgui:color "white" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "_1" ;
+            lv2:name "1" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "_2" ;
+            lv2:name "2" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "_3" ;
+            lv2:name "3" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "_4" ;
+            lv2:name "4" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "_5" ;
+            lv2:name "5" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "_6" ;
+            lv2:name "6" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "_7" ;
+            lv2:name "7" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "_8" ;
+            lv2:name "8" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "_9" ;
+            lv2:name "9" ;
+        ] , [
+            lv2:index 9 ;
+            lv2:symbol "_10" ;
+            lv2:name "10" ;
+        ] , [
+            lv2:index 10 ;
+            lv2:symbol "_11" ;
+            lv2:name "11" ;
+        ] , [
+            lv2:index 11 ;
+            lv2:symbol "_12" ;
+            lv2:name "12" ;
+        ] , [
+            lv2:index 12 ;
+            lv2:symbol "_13" ;
+            lv2:name "13" ;
+        ] , [
+            lv2:index 13 ;
+            lv2:symbol "_14" ;
+            lv2:name "14" ;
+        ] , [
+            lv2:index 14 ;
+            lv2:symbol "_15" ;
+            lv2:name "15" ;
+        ] , [
+            lv2:index 15 ;
+            lv2:symbol "_16" ;
+            lv2:name "16" ;
+        ] ;
+    ] .
+## END http://kxstudio.sf.net/carla/plugins/midichanab
+###############################################################################
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/midichanfilter
+<http://kxstudio.sf.net/carla/plugins/midichanfilter>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-channel-filter.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-channel-filter.css> ;
+        modgui:screenshot <modgui/screenshot-midi-channel-filter.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-channel-filter.png> ;
+        modgui:brand "Milk Brews" ;
+        modgui:label "MIDI Channel Filter" ;
+        modgui:model "boxy" ;
+        modgui:panel "16-sliders" ;
+        modgui:color "white" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "_1" ;
+            lv2:name "1" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "_2" ;
+            lv2:name "2" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "_3" ;
+            lv2:name "3" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "_4" ;
+            lv2:name "4" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "_5" ;
+            lv2:name "5" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "_6" ;
+            lv2:name "6" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "_7" ;
+            lv2:name "7" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "_8" ;
+            lv2:name "8" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "_9" ;
+            lv2:name "9" ;
+        ] , [
+            lv2:index 9 ;
+            lv2:symbol "_10" ;
+            lv2:name "10" ;
+        ] , [
+            lv2:index 10 ;
+            lv2:symbol "_11" ;
+            lv2:name "11" ;
+        ] , [
+            lv2:index 11 ;
+            lv2:symbol "_12" ;
+            lv2:name "12" ;
+        ] , [
+            lv2:index 12 ;
+            lv2:symbol "_13" ;
+            lv2:name "13" ;
+        ] , [
+            lv2:index 13 ;
+            lv2:symbol "_14" ;
+            lv2:name "14" ;
+        ] , [
+            lv2:index 14 ;
+            lv2:symbol "_15" ;
+            lv2:name "15" ;
+        ] , [
+            lv2:index 15 ;
+            lv2:symbol "_16" ;
+            lv2:name "16" ;
+        ] ;
+    ] .
+## END http://kxstudio.sf.net/carla/plugins/midichanfilter
+###############################################################################
+
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/midichannelize
+
+<http://kxstudio.sf.net/carla/plugins/midichannelize>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-channelize.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-channelize.css> ;
+        modgui:screenshot <modgui/screenshot-midi-channelize.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-channelize.png> ;
+        modgui:brand "falkTX" ;
+        modgui:label "MIDI Channelize" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-knob" ;
+        modgui:color "white" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "channel" ;
+            lv2:name "Channel" ;
+        ] ;
+    ] .
+## END http://kxstudio.sf.net/carla/plugins/midichannelize
+###############################################################################
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/midigain
+
+<http://kxstudio.sf.net/carla/plugins/midigain>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-gain.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-gain.css> ;
+        modgui:screenshot <modgui/screenshot-midi-gain.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-gain.png> ;
+        modgui:brand "falkTX" ;
+        modgui:label "MIDI Gain" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-knob" ;
+        modgui:color "white" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "gain" ;
+            lv2:name "Gain" ;
+        ] ;
+    ] .
+## END http://kxstudio.sf.net/carla/plugins/midigain
+###############################################################################
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/midijoin
+
+<http://kxstudio.sf.net/carla/plugins/midijoin>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-join.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-join.css> ;
+        modgui:screenshot <modgui/screenshot-midi-join.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-join.png> ;
+        modgui:brand "falkTX" ;
+        modgui:label "MIDI Join" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-knob" ;
+        modgui:color "white" ;
+        modgui:knob "aluminium" ;
+    ] .
+
+## END http://kxstudio.sf.net/carla/plugins/midijoin
+###############################################################################
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/midisplit
+
+<http://kxstudio.sf.net/carla/plugins/midisplit>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-split.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-split.css> ;
+        modgui:screenshot <modgui/screenshot-midi-split.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-split.png> ;
+        modgui:brand "falkTX" ;
+        modgui:label "MIDI Split" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-knob" ;
+        modgui:color "white" ;
+        modgui:knob "aluminium" ;
+    ] .
+
+## END http://kxstudio.sf.net/carla/plugins/midisplit
+###############################################################################
+
+###############################################################################
+## START http://kxstudio.sf.net/carla/plugins/miditranspose
+
+<http://kxstudio.sf.net/carla/plugins/miditranspose>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-midi-transpose.html> ;
+        modgui:stylesheet <modgui/stylesheet-midi-transpose.css> ;
+        modgui:screenshot <modgui/screenshot-midi-transpose.png> ;
+        modgui:thumbnail <modgui/thumbnail-midi-transpose.png> ;
+        modgui:brand "falkTX" ;
+        modgui:label "MIDI Transpose" ;
+        modgui:model "boxy" ;
+        modgui:panel "2-knob" ;
+        modgui:color "white" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "octaves" ;
+            lv2:name "Octaves" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "semitones" ;
+            lv2:name "Semitones" ;
+        ] ;
+
+    ] .
+
+## END http://kxstudio.sf.net/carla/plugins/miditranspose
+###############################################################################

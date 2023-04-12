@@ -1,0 +1,22 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<https://github.com/brummer10/LittleFly.lv2>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-littlefly.html> ;
+        modgui:stylesheet <modgui/stylesheet-littlefly.css> ;
+        modgui:screenshot <modgui/screenshot-littlefly.png> ;
+        modgui:thumbnail <modgui/thumbnail-littlefly.png> ;
+        modgui:brand "brummer" ;
+        modgui:label "LittleFly" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-knob" ;
+        modgui:color "zinc" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "VOLUME" ;
+            lv2:name "VOLUME" ;
+        ] ;
+    ] .

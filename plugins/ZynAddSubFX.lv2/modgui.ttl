@@ -1,0 +1,18 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://zynaddsubfx.sourceforge.net>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-zynaddsubfx.html> ;
+        modgui:javascript <modgui/javascript-zynaddsubfx.js> ;
+        modgui:stylesheet <modgui/stylesheet-zynaddsubfx.css> ;
+        modgui:screenshot <modgui/screenshot-zynaddsubfx.png> ;
+        modgui:thumbnail <modgui/thumbnail-zynaddsubfx.png> ;
+        modgui:brand "ZynAddSubFX" ;
+        modgui:label "ZynAddSubFX Team" ;
+        modgui:model "boxy-small" ;
+        modgui:panel "1-footswitch-presets" ;
+        modgui:color "gray" ;
+        modgui:monitoredOutputs [ lv2:symbol "osc_port" ] ;
+    ] .

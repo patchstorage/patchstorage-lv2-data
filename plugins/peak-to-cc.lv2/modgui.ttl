@@ -1,0 +1,22 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://moddevices.com/plugins/mod-devel/PeakToCC>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-peak-to-cc.html> ;
+        modgui:stylesheet <modgui/stylesheet-peak-to-cc.css> ;
+        modgui:screenshot <modgui/screenshot-peak-to-cc.png> ;
+        modgui:thumbnail <modgui/thumbnail-peak-to-cc.png> ;
+        modgui:brand "falkTX" ;
+        modgui:label "Peak to CC" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-knob" ;
+        modgui:color "white" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "cc" ;
+            lv2:name "CC" ;
+        ] ;
+    ] .

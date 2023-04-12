@@ -1,0 +1,277 @@
+/* SKINS */
+.mod-combo-model-001{{{cns}}} {
+    border-radius: 20px;
+}
+.mod-combo-model-001-0550{{{cns}}} {
+    background-image: url(/resources/combos/model-001/model-0550.png{{{ns}}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    width: 550px;
+}
+
+.mod-combo-model-001-0625{{{cns}}} {
+    background-image: url(/resources/combos/model-001/model-0625.png{{{ns}}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    width: 625px;
+}
+
+.mod-combo-model-001-0778{{{cns}}} {
+    background-image: url(/resources/combos/model-001/model-0778.png{{{ns}}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    width: 778px;
+}
+
+.mod-combo-model-001-0930{{{cns}}} {
+    background-image: url(/resources/combos/model-001/model-0930.png{{{ns}}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    width: 930px;
+}
+
+
+/* THE AUTHOR */
+.mod-combo-model-001{{{cns}}} .mod-plugin-brand h1 {
+    color: #ffe0b8;
+    font-size: 14px;
+    font-weight: bold;
+    left: 85px;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    top: 22px;
+}
+
+/* PLUGIN'S NAME */
+.mod-combo-model-001{{{cns}}} .mod-plugin-name h1 {
+    color: #ffe0b8;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    right: 85px;
+    top: 22px;
+}
+
+/* CONTROLS */
+.mod-combo-model-001{{{cns}}} .mod-control-group {
+    border-color: #ffe0b8;
+    border-style: solid;
+    border-width: 0px 0 0 0;
+    bottom: 149px;
+    color: #ffe0b8;
+    font-size: 10px;
+    font-weight: bold;
+    height: 81px;
+    left: 75px;
+    position: absolute;
+    right: 58px;
+    top: 37px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-control-group > div {
+    margin-right: 2px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-pedal-input,
+.mod-combo-model-001{{{cns}}} .mod-pedal-output {
+    top: 30px;
+}
+
+
+/* SWITCH ON/OFF GENERAL - RED LED */
+.mod-combo-model-001{{{cns}}} .mod-switch {
+    cursor: pointer;
+    float: left;
+	top: -0px;
+    height: 71px;
+    position: relative;
+    width: 52px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-switch-image {
+    background-image: url(/resources/switches/switch-key-red-led.png{{{ns}}});
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 133px;
+	position: relative;
+    text-align: center;
+    height: 66px;
+    width: 52px;
+    z-index: 2;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-switch-image.on {
+    background-position-y: bottom !important
+}
+
+.mod-combo-model-001{{{cns}}} .mod-switch .mod-switch-title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    height: 15px;
+    left: 12px;
+    right: 12px;
+    overflow: hidden;
+    position: absolute;
+    text-transform: uppercase;
+    top: 55px;
+    z-index: 1;
+}
+
+/* TOGGLE ON/OFF GENERAL - YELLOW LED */
+.mod-combo-model-001{{{cns}}} .mod-toggle {
+    cursor: pointer;
+    float: left;
+	top: 0px;
+    height: 71px;
+    position: relative;
+    width: 52px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-toggle-image {
+    background-image: url(/resources/switches/switch-key-yellow-led.png{{{ns}}});
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 133px;
+    position: relative;
+    text-align: center;
+    height: 66px;
+    width: 52px;
+    z-index: 2;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-toggle-image.on {
+    background-position-y: bottom !important
+}
+
+.mod-combo-model-001{{{cns}}} .mod-toggle .mod-toggle-title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    height: 15px;
+    left: 4px;
+    right: 4px;
+    overflow: hidden;
+    position: absolute;
+    text-transform: uppercase;
+    top: 55px;
+    z-index: 1;
+}
+
+/* CHICKEN HEAD */
+.mod-combo-model-001{{{cns}}} .mod-chicken-head {
+    cursor: pointer;
+	float: left;
+	top: 0px;
+    height: 71px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 60px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-chicken-head .mod-chicken-head-image {
+    background-image: url(/resources/knobs/chicken-head/_strip.png{{{ns}}});
+    background-position: left 0px;
+    background-repeat: no-repeat;
+    background-size: auto 71px;
+    height: 71px;
+    margin-top: 9px;
+    position: relative;
+    width: 71px;
+    z-index: 2;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-chicken-head .mod-chicken-head-title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    height:20px;
+    left: 11px;
+    overflow:hidden;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0px;
+    z-index: 1;
+}
+
+/* ENUMERATED LIST */
+.mod-combo-model-001{{{cns}}} .mod-enumerated {
+    color:#ffe0b8;
+    display:inline-block;
+    left:132px;
+    overflow:hidden;
+    position:absolute;
+    top:-27px;
+    width:240px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-enumerated .mod-enumerated-selected {
+    background-color:#ffe0b8;
+    background-image:url(/resources/utils/dropdown-arrow-white.png{{{ns}}});
+    background-position:right center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 5px #000;
+    color:#ffe0b8;
+    font-size: 12px;
+    height: 24px;
+    line-height: 2;
+    margin-right: 8px;
+    overflow: hidden;
+    padding: 0 9px;
+}
+
+/* WHEN IS HOVER */
+.mod-combo-model-001{{{cns}}} .mod-enumerated:hover .mod-enumerated-selected {
+    border-radius:4px 4px 0 0;
+}
+
+/* THE LIST OF OPTIONS */
+.mod-combo-model-001{{{cns}}} .mod-enumerated .mod-enumerated-list {
+    display:none;
+    font-weight:bold;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-enumerated .mod-enumerated-list > div {
+    padding:3px 9px;
+}
+
+.mod-combo-model-001{{{cns}}} .mod-enumerated .mod-enumerated-list > div:hover {
+    background:rgba(255,255,255,.2);
+    cursor:pointer;
+}
+
+/* WHEN THE LIST IS SHOWING */
+.mod-combo-model-001{{{cns}}} .mod-enumerated .mod-enumerated-list {
+    background:rgba(0,0,0,.9);
+    display:none;
+    height:85px;
+    overflow:auto;
+    position:relative;
+    width:232px;
+    z-index:3;
+}
+
+
+/* SEPARATOR */
+.mod-combo-model-001{{{cns}}} .mod-separator {
+    background:rgba(255,255,255,0);
+    display: inline-block;
+    float: left;
+    height: 69px;
+    margin-top: 2px;
+    width: 25px;
+}

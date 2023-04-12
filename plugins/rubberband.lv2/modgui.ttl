@@ -1,0 +1,83 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://www.breakfastquay.com/rubberband#Mono>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-rubberband.html> ;
+        modgui:stylesheet <modgui/stylesheet-rubberband.css> ;
+        modgui:screenshot <modgui/screenshot-rubberband-mono.png> ;
+        modgui:thumbnail <modgui/thumbnail-rubberband-mono.png> ;
+        modgui:brand "Chris Cannam" ;
+        modgui:label "Rubberband Mono" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "orange" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "cents" ;
+            lv2:name "Cents" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "semitones" ;
+            lv2:name "Semitones" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "octaves" ;
+            lv2:name "Octaves" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "crispness" ;
+            lv2:name "Crispness" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "form_pres" ;
+            lv2:name "Formant Preserv" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "faster" ;
+            lv2:name "Faster" ;
+        ] ;
+    ] .
+
+
+<http://www.breakfastquay.com/rubberband#Stereo>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-rubberband.html> ;
+        modgui:stylesheet <modgui/stylesheet-rubberband.css> ;
+        modgui:screenshot <modgui/screenshot-rubberband-stereo.png> ;
+        modgui:thumbnail <modgui/thumbnail-rubberband-stereo.png> ;
+        modgui:brand "Chris Cannam" ;
+        modgui:label "Rubberband Stereo" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "orange" ;
+        modgui:knob "black" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "cents" ;
+            lv2:name "Cents" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "semitones" ;
+            lv2:name "Semitones" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "octaves" ;
+            lv2:name "Octaves" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "crispness" ;
+            lv2:name "Crispness" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "form_pres" ;
+            lv2:name "Formant Preserv" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "faster" ;
+            lv2:name "Faster" ;
+        ] ;
+    ] .

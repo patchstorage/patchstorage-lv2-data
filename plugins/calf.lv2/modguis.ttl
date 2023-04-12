@@ -1,0 +1,672 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/EnvelopeFilter
+<http://calf.sourceforge.net/plugins/EnvelopeFilter>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/envelope-filter/icon-calf-envelope-filter.html> ;
+        modgui:stylesheet <modgui/envelope-filter/stylesheet-calf-envelope-filter.css> ;
+        modgui:screenshot <modgui/envelope-filter/screenshot-calf-envelope-filter.png> ;
+        modgui:thumbnail <modgui/envelope-filter/thumbnail-calf-envelope-filter.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Envelope Filter" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "blue" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "mode" ;
+            lv2:name "Mode" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input Gain" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "response" ;
+            lv2:name "Response" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "gain" ;
+            lv2:name "Activate" ;
+        ] ;
+    ] .
+
+## END http://calf.sourceforge.net/plugins/EnvelopeFilter
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Flanger
+<http://calf.sourceforge.net/plugins/Flanger>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Flanger/icon-calf-flanger.css>;
+    modgui:iconTemplate <modgui/Flanger/icon-calf-flanger.html>;
+    modgui:screenshot <modgui/Flanger/screenshot-calf-flanger.png>;
+    modgui:thumbnail <modgui/Flanger/thumb-calf-flanger.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Flanger
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Phaser
+<http://calf.sourceforge.net/plugins/Phaser>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Phaser/icon-calf-phaser.css>;
+    modgui:iconTemplate <modgui/Phaser/icon-calf-phaser.html>;
+    modgui:screenshot <modgui/Phaser/screenshot-calf-phaser.png>;
+    modgui:thumbnail <modgui/Phaser/thumb-calf-phaser.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Phaser
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Saturator
+<http://calf.sourceforge.net/plugins/Saturator>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Saturator/icon-calf-saturator.css>;
+    modgui:iconTemplate <modgui/Saturator/icon-calf-saturator.html>;
+    modgui:screenshot <modgui/Saturator/screenshot-calf-saturator.png>;
+    modgui:thumbnail <modgui/Saturator/thumb-calf-saturator.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Saturator
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/BassEnhancer
+<http://calf.sourceforge.net/plugins/BassEnhancer>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui>;
+        modgui:stylesheet <modgui/BassEnhancer/icon-calf-bassenhancer.css>;
+        modgui:iconTemplate <modgui/BassEnhancer/icon-calf-bassenhancer.html>;
+        modgui:screenshot <modgui/BassEnhancer/screenshot-calf-bassenhancer.png>;
+        modgui:thumbnail <modgui/BassEnhancer/thumb-calf-bassenhancer.png>;
+    ] .
+## END http://calf.sourceforge.net/plugins/BassEnhancer
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Exciter
+<http://calf.sourceforge.net/plugins/Exciter>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Exciter/icon-calf-exciter.css>;
+    modgui:iconTemplate <modgui/Exciter/icon-calf-exciter.html>;
+    modgui:screenshot <modgui/Exciter/screenshot-calf-exciter.png>;
+    modgui:thumbnail <modgui/Exciter/thumb-calf-exciter.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Exciter
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Equalizer5Band
+<http://calf.sourceforge.net/plugins/Equalizer5Band>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Equalizer5Band/icon-calf-equalizer-5-band.css>;
+    modgui:iconTemplate <modgui/Equalizer5Band/icon-calf-equalizer-5-band.html>;
+    modgui:screenshot <modgui/Equalizer5Band/screenshot-calf-equalizer-5-band.png>;
+    modgui:thumbnail <modgui/Equalizer5Band/thumb-calf-equalizer-5-band.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Equalizer5Band
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Filter
+<http://calf.sourceforge.net/plugins/Filter>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Filter/icon-calf-filter.css>;
+    modgui:iconTemplate <modgui/Filter/icon-calf-filter.html>;
+    modgui:screenshot <modgui/Filter/screenshot-calf-filter.png>;
+    modgui:thumbnail <modgui/Filter/thumb-calf-filter.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Filter
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Filterclavier
+<http://calf.sourceforge.net/plugins/Filterclavier>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Filterclavier/icon-calf-filterclavier.css>;
+    modgui:iconTemplate <modgui/Filterclavier/icon-calf-filterclavier.html>;
+    modgui:screenshot <modgui/Filterclavier/screenshot-calf-filterclavier.png>;
+    modgui:thumbnail <modgui/Filterclavier/thumb-calf-filterclavier.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Filterclavier
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Monosynth
+<http://calf.sourceforge.net/plugins/Monosynth>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/Monosynth/icon-calf-monosynth.css>;
+    modgui:iconTemplate <modgui/Monosynth/icon-calf-monosynth.html>;
+    modgui:screenshot <modgui/Monosynth/screenshot-calf-monosynth.png>;
+    modgui:thumbnail <modgui/Monosynth/thumb-calf-monosynth.png>;
+] .
+## END http://calf.sourceforge.net/plugins/Monosynth
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Pulsator
+<http://calf.sourceforge.net/plugins/Pulsator>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-pulsator.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-pulsator.css> ;
+        modgui:screenshot <modgui/screenshot-calf-pulsator.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-pulsator.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Pulsator" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "level_out" ;
+            lv2:name "Output" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "offset_l" ;
+            lv2:name "Offset L" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "offset_r" ;
+            lv2:name "Offset R" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "amount" ;
+            lv2:name "Modulation" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "bpm" ;
+            lv2:name "BPM" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "ms" ;
+            lv2:name "ms" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "hz" ;
+            lv2:name "Hz" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "mode" ;
+            lv2:name "Mode" ;
+        ] , [
+            lv2:index 9 ;
+            lv2:symbol "pulsewidth" ;
+            lv2:name "Pulse Width" ;
+        ] , [
+            lv2:index 10 ;
+            lv2:symbol "timing" ;
+            lv2:name "Timing" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Pulsator
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/VintageDelay
+<http://calf.sourceforge.net/plugins/VintageDelay>
+modgui:gui [
+    modgui:resourcesDirectory <modgui>;
+    modgui:stylesheet <modgui/VintageDelay/icon-calf-vintage-delay.css>;
+    modgui:iconTemplate <modgui/VintageDelay/icon-calf-vintage-delay.html>;
+    modgui:screenshot <modgui/VintageDelay/screenshot-calf-vintage-delay.png>;
+    modgui:thumbnail <modgui/VintageDelay/thumb-calf-vintage-delay.png>;
+] .
+## END http://calf.sourceforge.net/plugins/VintageDelay
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/CompensationDelay
+<http://calf.sourceforge.net/plugins/CompensationDelay>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-compensation-delay-line.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-compensation-delay-line.css> ;
+        modgui:screenshot <modgui/screenshot-calf-compensation-delay-line.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-compensation-delay-line.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Compensation Delay Line" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "dry" ;
+            lv2:name "Dry" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "wet" ;
+            lv2:name "Wet" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "level_out" ;
+            lv2:name "Output" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "distance_mm" ;
+            lv2:name "mm" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "distance_cm" ;
+            lv2:name "cm" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "distance_m" ;
+            lv2:name "m" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "temp" ;
+            lv2:name "°C" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/CompensationDelay
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Compressor
+<http://calf.sourceforge.net/plugins/Compressor>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-compressor.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-compressor.css> ;
+        modgui:screenshot <modgui/screenshot-calf-compressor.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-compressor.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Compressor" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "detection" ;
+            lv2:name "Detection" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "makeup" ;
+            lv2:name "Makeup" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "mix" ;
+            lv2:name "Mix" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "threshold" ;
+            lv2:name "Threshold" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "release" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "ratio" ;
+            lv2:name "Ratio" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "knee" ;
+            lv2:name "Knee" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Compressor
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Crusher
+<http://calf.sourceforge.net/plugins/Crusher>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-crusher.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-crusher.css> ;
+        modgui:screenshot <modgui/screenshot-calf-crusher.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-crusher.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Crusher" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "mode" ;
+            lv2:name "Mode" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "level_out" ;
+            lv2:name "Output" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "bits" ;
+            lv2:name "Bit Red" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "morph" ;
+            lv2:name "Morph" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "dc" ;
+            lv2:name "DC" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "anti_aliasing" ;
+            lv2:name "Anti-Alias" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "samples" ;
+            lv2:name "Samp Red" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Crusher
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Organ
+<http://calf.sourceforge.net/plugins/Organ>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-organ.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-organ.css> ;
+        modgui:screenshot <modgui/screenshot-calf-organ.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-organ.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Organ" ;
+        modgui:model "boxy-small" ;
+        modgui:panel "1-footswitch-presets" ;
+        modgui:color "racing" ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Organ
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Wavetable
+<http://calf.sourceforge.net/plugins/Wavetable>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-wavetable.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-wavetable.css> ;
+        modgui:screenshot <modgui/screenshot-calf-wavetable.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-wavetable.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Wavetable" ;
+        modgui:model "boxy-small" ;
+        modgui:panel "1-footswitch-presets" ;
+        modgui:color "racing" ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Wavetable
+###############################################################################
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Gate
+<http://calf.sourceforge.net/plugins/Gate>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-gate.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-gate.css> ;
+        modgui:screenshot <modgui/screenshot-calf-gate.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-gate.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Gate" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "detection" ;
+            lv2:name "Detection" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "range" ;
+            lv2:name "Gain Red" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "threshold" ;
+            lv2:name "Thresh" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "makeup" ;
+            lv2:name "Makeup" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "ratio" ;
+            lv2:name "Ratio" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "attack" ;
+            lv2:name "Attack" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "release" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "knee" ;
+            lv2:name "Knee" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Gate
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/Reverb
+<http://calf.sourceforge.net/plugins/Reverb>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-reverb.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-reverb.css> ;
+        modgui:screenshot <modgui/screenshot-calf-reverb.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-reverb.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Reverb" ;
+        modgui:model "boxy" ;
+        modgui:panel "1-select-4-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "room_size" ;
+            lv2:name "Room size" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "decay_time" ;
+            lv2:name "Decay" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "hf_damp" ;
+            lv2:name "Hi Damp" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "diffusion" ;
+            lv2:name "Diffusion" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "predelay" ;
+            lv2:name "Pre Del" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "amount" ;
+            lv2:name "Wet" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "dry" ;
+            lv2:name "Dry" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "bass_cut" ;
+            lv2:name "Bass Cut" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "treble_cut" ;
+            lv2:name "Treb Cut" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/Reverb
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/MonoCompressor
+<http://calf.sourceforge.net/plugins/MonoCompressor>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-mono-compressor.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-mono-compressor.css> ;
+        modgui:screenshot <modgui/screenshot-calf-mono-compressor.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-mono-compressor.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Compressor Mono" ;
+        modgui:model "boxy" ;
+        modgui:panel "7-knobs" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "level_in" ;
+            lv2:name "Input" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "threshold" ;
+            lv2:name "Threshold" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "ratio" ;
+            lv2:name "Ratio" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "ratio" ;
+            lv2:name "Ratio" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "release" ;
+            lv2:name "Release" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "makeup" ;
+            lv2:name "Makeup" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "knee" ;
+            lv2:name "Knee" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "mix" ;
+            lv2:name "Mix" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/MonoCompressor
+###############################################################################
+
+
+###############################################################################
+## START http://calf.sourceforge.net/plugins/MultiChorus
+<http://calf.sourceforge.net/plugins/MultiChorus>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-calf-multi-chorus.html> ;
+        modgui:stylesheet <modgui/stylesheet-calf-multi-chorus.css> ;
+        modgui:screenshot <modgui/screenshot-calf-multi-chorus.png> ;
+        modgui:thumbnail <modgui/thumbnail-calf-multi-chorus.png> ;
+        modgui:brand "Calf" ;
+        modgui:label "Multi Chorus" ;
+        modgui:model "boxy" ;
+        modgui:panel "12-sliders" ;
+        modgui:color "racing" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "min_delay" ;
+            lv2:name "Min Dly" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "mod_depth" ;
+            lv2:name "Mod Deph" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "mod_rate" ;
+            lv2:name "Mod Rate" ;
+        ] , [
+            lv2:index 3 ;
+            lv2:symbol "stereo" ;
+            lv2:name "St Phas" ;
+        ] , [
+            lv2:index 4 ;
+            lv2:symbol "voices" ;
+            lv2:name "Voi ces" ;
+        ] , [
+            lv2:index 5 ;
+            lv2:symbol "vphase" ;
+            lv2:name "Int Voic Ph" ;
+        ] , [
+            lv2:index 6 ;
+            lv2:symbol "amount" ;
+            lv2:name "Amt" ;
+        ] , [
+            lv2:index 7 ;
+            lv2:symbol "dry" ;
+            lv2:name "Dry Amt" ;
+        ] , [
+            lv2:index 8 ;
+            lv2:symbol "freq" ;
+            lv2:name "Fq 1" ;
+        ] , [
+            lv2:index 9 ;
+            lv2:symbol "freq2" ;
+            lv2:name "Fq 2" ;
+        ] , [
+            lv2:index 10 ;
+            lv2:symbol "q" ;
+            lv2:name "Q" ;
+        ] , [
+            lv2:index 11 ;
+            lv2:symbol "overlap" ;
+            lv2:name "Over lap" ;
+        ] ;
+    ] .
+## END http://calf.sourceforge.net/plugins/MultiChorus
+###############################################################################

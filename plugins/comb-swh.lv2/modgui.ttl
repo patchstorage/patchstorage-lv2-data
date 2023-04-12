@@ -1,0 +1,86 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://plugin.org.uk/swh-plugins/comb_n>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-comb-delay-line.html> ;
+        modgui:stylesheet <modgui/stylesheet-comb-delay-line.css> ;
+        modgui:screenshot <modgui/screenshot-comb-delay-line-non-interpolating.png> ;
+        modgui:thumbnail <modgui/thumbnail-comb-delay-line-non-interpolating.png> ;
+        modgui:brand "SWH" ;
+        modgui:label " Comb delay line non-interpolating" ;
+        modgui:model "boxy" ;
+        modgui:panel "3-knobs" ;
+        modgui:color "gray" ;
+        modgui:knob "green" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "max_delay" ;
+            lv2:name "MaxDly(s)" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "delay_time" ;
+            lv2:name "Delay (s)" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "decay_time" ;
+            lv2:name "Decay (s)" ;
+        ] ;
+    ] .
+
+<http://plugin.org.uk/swh-plugins/comb_c>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-comb-delay-line.html> ;
+        modgui:stylesheet <modgui/stylesheet-comb-delay-line.css> ;
+        modgui:screenshot <modgui/screenshot-comb-delay-line-cubic-spline-int.png> ;
+        modgui:thumbnail <modgui/thumbnail-comb-delay-line-cubic-spline-int.png> ;
+        modgui:brand "SWH" ;
+        modgui:label " Comb delay line cubic spline interp." ;
+        modgui:model "boxy" ;
+        modgui:panel "3-knobs" ;
+        modgui:color "gray" ;
+        modgui:knob "green" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "max_delay" ;
+            lv2:name "MaxDly(s)" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "delay_time" ;
+            lv2:name "Delay (s)" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "decay_time" ;
+            lv2:name "Decay (s)" ;
+        ] ;
+    ] .
+
+<http://plugin.org.uk/swh-plugins/comb_l>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-comb-delay-line.html> ;
+        modgui:stylesheet <modgui/stylesheet-comb-delay-line.css> ;
+        modgui:screenshot <modgui/screenshot-comb-delay-line-linear-interpolation.png> ;
+        modgui:thumbnail <modgui/thumbnail-comb-delay-line-linear-interpolation.png> ;
+        modgui:brand "SWH" ;
+        modgui:label " Comb delay line linear interpolation" ;
+        modgui:model "boxy" ;
+        modgui:panel "3-knobs" ;
+        modgui:color "gray" ;
+        modgui:knob "green" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "max_delay" ;
+            lv2:name "MaxDly(s)" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "delay_time" ;
+            lv2:name "Delay (s)" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "decay_time" ;
+            lv2:name "Decay (s)" ;
+        ] ;
+    ] .

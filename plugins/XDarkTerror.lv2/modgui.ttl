@@ -1,0 +1,28 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://guitarix.sourceforge.net/plugins/XDarkTerror_#_darkterror_>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-xdarkterror.html> ;
+        modgui:stylesheet <modgui/stylesheet-xdarkterror.css> ;
+        modgui:screenshot <modgui/screenshot-xdarkterror.png> ;
+        modgui:thumbnail <modgui/thumbnail-xdarkterror.png> ;
+        modgui:brand "Guitarix" ;
+        modgui:label "XDarkTerror" ;
+        modgui:model "xTerror" ;
+        modgui:color "orange" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "VOLUME" ;
+            lv2:name "VOLUME" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "SHAPE" ;
+            lv2:name "SHAPE" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "GAIN" ;
+            lv2:name "GAIN" ;
+        ] ;
+    ] .
